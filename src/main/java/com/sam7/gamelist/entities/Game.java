@@ -9,19 +9,13 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
-/*configura a classe java para que ela seja equivalente a uma tabela do banco relacional*/
-@Entity 
 
-/*contumiza o nome da tabela*/
-@Table(name = "tb_game")
+@Entity /*configura a classe java para que ela seja equivalente a uma tabela do banco relacional*/
+@Table(name = "tb_game")/*contumiza o nome da tabela*/
 public class Game {
-	
-	//configurando o id como chave primaria//
-	@Id 
-	
-	//para o id ser auto-incrementavel pelo banco dados//
-	@GeneratedValue (strategy = GenerationType.IDENTITY) 
-	
+		
+@Id //configurando o id como chave primaria//
+@GeneratedValue (strategy = GenerationType.IDENTITY) //para o id ser auto-incrementavel pelo banco dados//
 	private Long id;
 	private String title;
 	
@@ -34,12 +28,12 @@ public class Game {
 	private String longDescription;
 
 	
-	/*construtor sem argumento*/
+	/*construtor sem argumento */
 	public Game() {
 	
 	}
 	
-	/*construtor com argumentos para estaciar um game já passando os argumentos  - (constructor using fields)(opcional)*/ 
+	/*construtor com argumentos para estanciar um game já passando os argumentos  - (constructor using fields)(opcional)*/ 
 	
 	public Game(Long id, String title, Integer year, String genre, String platform, String imgUrl,
 			String shortDescription, String longDescription) {
