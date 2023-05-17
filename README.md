@@ -3,7 +3,7 @@
 
 # Sobre o projeto
 Projeto de uma API para ser consumida em um sistema Web que lista, classifica por tipo e da os scores dos jogos e sua ficha tecnica e plataforma, o projeto foi implementado em um "Intensivão organizado pela [DevSuperior](https://devsuperior.com "Site da DevSuperior").
-e ainda não foi concluido.
+e ainda não foi concluido as etapas de Back end e Front end. 
 
 # Tecnologias utilizadas
 ## Back end
@@ -12,7 +12,7 @@ e ainda não foi concluido.
 - JPA / Hibernate
 - Maven
 
-# Autor
+## Autor
 
 Adriano Santana Martins
 
